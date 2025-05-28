@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tushar Jain - Resume</title>
+    <link rel="icon" type="image/png" href="Tushar.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="profile-header">
+                <div class="profile-picture">
+                    <img src="Tushar.png" alt="Tushar Jain" class="profile-image">
+                    <div class="profile-initial">T</div>
+                </div>
+                <div class="profile-info">
+                    <h1>Tushar Jain</h1>
+                    <p class="title-text">Python Developer</p>
+                    <div class="contact-info">
+                        <a href="mailto:your@email.com" title="Email"><i class="fas fa-envelope"></i> <span id="email">tusharjain8177@gmail.com</span></a>
+                        <a href="tel:+91 8824268209" title="Phone"><i class="fas fa-phone"></i> <span id="phone">+91 8824268209</span></a>
+                        <a href="#" title="Location"><i class="fas fa-map-marker-alt"></i> <span id="location">Jaipur, Rajasthan</span></a>
+                        <a href="https://linkedin.com/in/tusharjain8177" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i> <span id="linkedin">linkedin.com/in/tusharjain8177</span></a>
+                        <a href="https://github.com/tusharjain8177" target="_blank" title="GitHub"><i class="fab fa-github"></i> <span id="github">github.com/tusharjain8177</span></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="summary">
+                <h2>Professional Summary</h2>
+                <p id="summary-text">Insurance professional with hands-on experience in access management and configuration tools, transitioning to Python development. Leveraging 1+ years at MetLife where I successfully implemented automated solutions for policy management and client access workflows. Combining strong foundation in Python programming, object-oriented programming, and basic web development using Django and Flask with my domain expertise. Skilled in data structures, algorithms, and database management. Eager to apply my unique combination of business domain knowledge and technical skills to develop efficient software solutions that address real business needs.</p>
+            </section>
+
+            <div class="two-column-grid">
+                <div class="main-column">
+                    <section class="experience">
+                        <h2>Work Experience</h2>
+                        
+                        <div class="timeline">
+                            <div class="experience-item">
+                                <div class="timeline-dot"></div>
+                                <div class="content">
+                                    <h3><span id="job-title">Sr. Insurance Associate</span></h3>
+                                    <div class="sub-heading">
+                                        <span id="company-name">MetLife</span>
+                                        <span class="duration" id="job-duration">Aug 2023 - Present</span>
+                                    </div>
+                                    <ul id="job-responsibilities">
+                                        <li>Managed access provisioning for clients across various insurance policies, ensuring compliance with security protocols while improving service delivery times by 25%</li>
+                                        <li>Developed Python scripts to automate policy access workflows, reducing processing time from 3 days to 4 hours while maintaining 100% accuracy</li>
+                                        <li>Implemented configuration tools to streamline access migration processes, handling over 500 policy transfers monthly with zero security incidents</li>
+                                        <li>Collaborated with IT teams to design and test new access management solutions, contributing to a 30% reduction in manual processing requirements</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="experience-item">
+                                <div class="timeline-dot"></div>
+                                <div class="content">
+                                    <h3><span id="job-title2">Django Developer Intern</span></h3>
+                                    <div class="sub-heading">
+                                        <span id="company-name2">Physics Wallah</span>
+                                        <span class="duration" id="job-duration2">Jan 2023 - May 2023</span>
+                                    </div>
+                                    <ul id="job-responsibilities2">
+                                        <li>Developed a multi-user blogging platform similar to Medium using Django framework, implementing user authentication and content management systems</li>
+                                        <li>Created a robust database schema for managing user profiles, blog posts, and social sharing functionality</li>
+                                        <li>Implemented responsive frontend using HTML, CSS, and JavaScript with modern CSS frameworks for optimal user experience</li>
+                                        <li>Built social sharing features allowing users to generate and share unique links across different platforms</li>
+                                        <li>Collaborated with the development team to implement best practices in code organization and version control</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="projects">
+                        <h2>Projects</h2>
+                        
+                        <div class="projects-grid">
+                            <div class="project-item">
+                                <h3 id="project-name">Movie Recommendation System</h3>
+                                <div class="project-tags">
+                                    <span class="tag">Python</span>
+                                    <span class="tag">Machine Learning</span>
+                                    <span class="tag">Streamlit</span>
+                                    <span class="tag">Pandas</span>
+                                    <span class="tag">Scikit-learn</span>
+                                    <span class="tag">TMDB API</span>
+                                </div>
+                                <p id="project-description">Built a smart movie recommendation engine using ML algorithms and TMDB API. Features personalized suggestions, genre filtering, and an interactive Streamlit dashboard with movie details and ratings.</p>
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-link"></i> Live Demo</a>
+                                    <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                                </div>
+                            </div>
+                            
+                            <div class="project-item">
+                                <h3 id="project-name2">Healthcare Chatbot</h3>
+                                <div class="project-tags">
+                                    <span class="tag">Python</span>
+                                    <span class="tag">Flask</span>
+                                    <span class="tag">Dialogflow</span>
+                                    <span class="tag">NLP</span>
+                                    <span class="tag">Machine Learning</span>
+                                    <span class="tag">REST API</span>
+                                    <span class="tag">MongoDB</span>
+                                </div>
+                                <p id="project-description2">Built an AI healthcare assistant with Dialogflow and Flask. Handles symptom analysis, appointments, and medical queries. Features secure API endpoints and MongoDB integration for user data management.</p>
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-link"></i> Live Demo</a>
+                                    <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                                </div>
+                            </div>
+                            <div class="project-item">
+                                <h3 id="project-name3">Interactive Pokedex</h3>
+                                <div class="project-tags">
+                                    <span class="tag">HTML5</span>
+                                    <span class="tag">CSS3</span>
+                                    <span class="tag">JavaScript</span>
+                                    <span class="tag">Pokemon API</span>
+                                    <span class="tag">Responsive Design</span>
+                                    <span class="tag">Local Storage</span>
+                                    <span class="tag">Animations</span>
+                                </div>
+                                <p id="project-description3">Built a responsive Pokedex web app with Pokemon API integration. Features real-time search, type filtering, and favorite Pokemon saving with smooth animations and classic Pokedex-inspired design.</p>
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-link"></i> Live Demo</a>
+                                    <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                                </div>
+                            </div>
+                            <div class="project-item">
+                                <h3 id="project-name5">Real-Time Video Conferencing Platform</h3>
+                                <div class="project-tags">
+                                    <span class="tag">Django</span>
+                                    <span class="tag">Agora API</span>
+                                    <span class="tag">Python</span>
+                                    <span class="tag">JavaScript</span>
+                                </div>
+                                <p id="project-description5">Built a video conferencing platform with real-time streaming and chat using Agora Video Call API and Django. Features include screen sharing, meeting recording, and user authentication.</p>
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-link"></i> Live Demo</a>
+                                    <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                
+                <div class="side-column">
+                    <section class="education">
+                        <h2>Education</h2>
+                        <div class="education-item">
+                            <h3><span id="degree">Bachelor of Technology</span></h3>
+                            <div class="sub-heading">
+                                <span id="university">Indian Institute of Technology</span>
+                                <span class="duration" id="education-duration">2013 - 2017</span>
+                            </div>
+                            <ul id="education-details">
+                                <li><strong>CGPA:</strong> <span id="gpa">8.93/10</span></li>
+                                <li><strong>Coursework:</strong> <span id="coursework">Data Structures, Operating Systems, Database Management</span></li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <section class="skills">
+                        <h2>Skills</h2>
+                        
+                        <div class="skill-category">
+                            <h3>Technical Skills</h3>
+                            <div class="skill-tags" id="technical-skills">
+                                <span class="skill-tag">Python</span>
+                                <span class="skill-tag">Django</span>
+                                <span class="skill-tag">Flask</span>
+                                <span class="skill-tag">FastAPI</span>
+                                <span class="skill-tag">SQL</span>
+                                <span class="skill-tag">JavaScript</span>
+                                <span class="skill-tag">HTML5/CSS3</span>
+                                <span class="skill-tag">Git</span>
+                                <span class="skill-tag">Docker</span>
+                                <span class="skill-tag">AWS</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-category">
+                            <h3>Data Science & ML</h3>
+                            <div class="skill-tags" id="tools">
+                                <span class="skill-tag">Pandas</span>
+                                <span class="skill-tag">NumPy</span>
+                                <span class="skill-tag">Scikit-learn</span>
+                                <span class="skill-tag">TensorFlow</span>
+                                <span class="skill-tag">PyTorch</span>
+                                <span class="skill-tag">Data Analysis</span>
+                                <span class="skill-tag">Data Visualization</span>
+                                <span class="skill-tag">Statistical Modeling</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-category">
+                            <h3>Soft Skills</h3>
+                            <div class="skill-tags" id="soft-skills">
+                                <span class="skill-tag">Problem Solving</span>
+                                <span class="skill-tag">Critical Thinking</span>
+                                <span class="skill-tag">Communication</span>
+                                <span class="skill-tag">Team Collaboration</span>
+                                <span class="skill-tag">Agile</span>
+                                <span class="skill-tag">Adaptability</span>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="certifications">
+                        <h2>Certifications</h2>
+                        <ul id="certification-list">
+                            <li><i class="fas fa-certificate"></i> Python (Basic) Certificate - HackerRank - May 2023</li>
+                            <li><i class="fas fa-certificate"></i> Problem Solving (Basic) Certificate - HackerRank - May 2023</li>
+                            <li><i class="fas fa-certificate"></i> Power BI Data Visualization and Dashboard Techniques - LinkedIn - Oct 2023</li>
+                            <li><i class="fas fa-certificate"></i> Building RESTful Web APIs with Django - LinkedIn - Aug 2023</li>
+                        </ul>
+                    </section>
+
+                    <section class="languages">
+                        <h2>Languages</h2>
+                        <div class="language-skills" id="language-list">
+                            <div class="language-item">
+                                <span class="language-name">English</span>
+                                <div class="language-level">
+                                    <div class="level-dot filled"></div>
+                                    <div class="level-dot filled"></div>
+                                    <div class="level-dot filled"></div>
+                                    <div class="level-dot filled"></div>
+                                    <div class="level-dot filled"></div>
+                                </div>
+                                <span class="level-text">Native</span>
+                            </div>
+                            <div class="language-item">
+                                <span class="language-name">Hindi</span>
+                                <div class="language-level">
+                                    <div class="level-dot filled"></div>
+                                    <div class="level-dot filled"></div>
+                                    <div class="level-dot filled"></div>
+                                    <div class="level-dot filled"></div>
+                                    <div class="level-dot filled"></div>
+                                </div>
+                                <span class="level-text">Native</span>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <p>&copy; 2025 Tushar Jain. All rights reserved.</p>
+        </footer>
+    </div>
+    
+    <div class="floating-controls">
+        <button class="theme-toggle" title="Toggle dark/light mode"><i class="fas fa-moon"></i></button>
+        <button class="print-button" title="Print resume"><i class="fas fa-print"></i></button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
